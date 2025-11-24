@@ -7,7 +7,7 @@ A **fast, intuitive, and cross-platform mobile application** built with **Flutte
 ## 🌟 Features
 
 - **Quick Note Creation:** Instantly draft and save text notes.
-- **Persistent Storage:** Uses a local database (e.g., **Hive** or **Drift**) to ensure notes are saved securely across sessions.
+- **Persistent Storage:** Uses firebase database to ensure notes are saved securely.
 - **Clean Interface:** Adheres to modern **Material Design** standards for a smooth user experience.
 - **CRUD Operations:** Full functionality to **C**reate, **R**ead, **U**pdate, and **D**elete notes.
 
@@ -28,7 +28,7 @@ To build and run this application, you will need:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [repository-url-here]
+    git clone julianqapo/flutter-note-app
     cd note_keeper
     ```
 2.  **Install dependencies:**
